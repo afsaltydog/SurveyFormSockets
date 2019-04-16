@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+ 	<title>Survey</title>
+     <link rel="stylesheet" type="text/css" media="all" href="style.css">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="main">
+            <h1>Submitted Information</h1>
+            <p>Name: <%= name %></p>
+            <p>Dojo Location: <%= location %></p>
+            <p>Favorite Language: <%= language %></p>
+            <p>Comment (optional): <%= comment %></p>
+            <form class="mainform" action="/" method="get">
+                <button class="button" type="submit">Go Back</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
